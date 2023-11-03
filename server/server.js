@@ -19,7 +19,7 @@ router.get("/test", (req, res) => {
   res.json({ message: "test route" });
 })
 
-app.use("/.netlify/functions/server", router);
+app.use("/.netlify/functions/api", router);
 
 // app.listen(3000, () => {
 //   console.log('Server listening on port 3000');
